@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15315E5F1BC66F6100A3B0A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E5E1BC66F6100A3B0A1 /* main.swift */; };
+		15315E681BC698BB00A3B0A1 /* MyDateDiscountTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E671BC698BB00A3B0A1 /* MyDateDiscountTool.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E6A1BC6A88A00A3B0A1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E691BC6A88A00A3B0A1 /* Card.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E6C1BC6C9F800A3B0A1 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E6B1BC6C9F800A3B0A1 /* Animal.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E6E1BC6D0C900A3B0A1 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E6D1BC6D0C900A3B0A1 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E701BC6D38E00A3B0A1 /* Sharp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E6F1BC6D38E00A3B0A1 /* Sharp.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E721BC6D4EA00A3B0A1 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E711BC6D4EA00A3B0A1 /* Circle.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E741BC6DA7100A3B0A1 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E731BC6DA7100A3B0A1 /* Square.swift */; settings = {ASSET_TAGS = (); }; };
+		15315E761BC6DCD000A3B0A1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315E751BC6DCD000A3B0A1 /* Util.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15315E591BC66F6100A3B0A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15315E5B1BC66F6100A3B0A1 /* LearningSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		15315E5E1BC66F6100A3B0A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		15315E671BC698BB00A3B0A1 /* MyDateDiscountTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDateDiscountTool.swift; sourceTree = "<group>"; };
+		15315E691BC6A88A00A3B0A1 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		15315E6B1BC6C9F800A3B0A1 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		15315E6D1BC6D0C900A3B0A1 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		15315E6F1BC6D38E00A3B0A1 /* Sharp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sharp.swift; sourceTree = "<group>"; };
+		15315E711BC6D4EA00A3B0A1 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		15315E731BC6DA7100A3B0A1 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		15315E751BC6DCD000A3B0A1 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15315E581BC66F6100A3B0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15315E521BC66F6100A3B0A1 = {
+			isa = PBXGroup;
+			children = (
+				15315E5D1BC66F6100A3B0A1 /* LearningSwift */,
+				15315E5C1BC66F6100A3B0A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15315E5C1BC66F6100A3B0A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15315E5B1BC66F6100A3B0A1 /* LearningSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15315E5D1BC66F6100A3B0A1 /* LearningSwift */ = {
+			isa = PBXGroup;
+			children = (
+				15315E5E1BC66F6100A3B0A1 /* main.swift */,
+				15315E671BC698BB00A3B0A1 /* MyDateDiscountTool.swift */,
+				15315E691BC6A88A00A3B0A1 /* Card.swift */,
+				15315E6B1BC6C9F800A3B0A1 /* Animal.swift */,
+				15315E6D1BC6D0C900A3B0A1 /* Dog.swift */,
+				15315E6F1BC6D38E00A3B0A1 /* Sharp.swift */,
+				15315E711BC6D4EA00A3B0A1 /* Circle.swift */,
+				15315E731BC6DA7100A3B0A1 /* Square.swift */,
+				15315E751BC6DCD000A3B0A1 /* Util.swift */,
+			);
+			path = LearningSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15315E5A1BC66F6100A3B0A1 /* LearningSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15315E621BC66F6100A3B0A1 /* Build configuration list for PBXNativeTarget "LearningSwift" */;
+			buildPhases = (
+				15315E571BC66F6100A3B0A1 /* Sources */,
+				15315E581BC66F6100A3B0A1 /* Frameworks */,
+				15315E591BC66F6100A3B0A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningSwift;
+			productName = LearningSwift;
+			productReference = 15315E5B1BC66F6100A3B0A1 /* LearningSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15315E531BC66F6100A3B0A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EvilBinary;
+				TargetAttributes = {
+					15315E5A1BC66F6100A3B0A1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 15315E561BC66F6100A3B0A1 /* Build configuration list for PBXProject "LearningSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15315E521BC66F6100A3B0A1;
+			productRefGroup = 15315E5C1BC66F6100A3B0A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15315E5A1BC66F6100A3B0A1 /* LearningSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15315E571BC66F6100A3B0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15315E741BC6DA7100A3B0A1 /* Square.swift in Sources */,
+				15315E761BC6DCD000A3B0A1 /* Util.swift in Sources */,
+				15315E721BC6D4EA00A3B0A1 /* Circle.swift in Sources */,
+				15315E681BC698BB00A3B0A1 /* MyDateDiscountTool.swift in Sources */,
+				15315E6C1BC6C9F800A3B0A1 /* Animal.swift in Sources */,
+				15315E6A1BC6A88A00A3B0A1 /* Card.swift in Sources */,
+				15315E6E1BC6D0C900A3B0A1 /* Dog.swift in Sources */,
+				15315E701BC6D38E00A3B0A1 /* Sharp.swift in Sources */,
+				15315E5F1BC66F6100A3B0A1 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15315E601BC66F6100A3B0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15315E611BC66F6100A3B0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15315E631BC66F6100A3B0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15315E641BC66F6100A3B0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15315E561BC66F6100A3B0A1 /* Build configuration list for PBXProject "LearningSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315E601BC66F6100A3B0A1 /* Debug */,
+				15315E611BC66F6100A3B0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15315E621BC66F6100A3B0A1 /* Build configuration list for PBXNativeTarget "LearningSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315E631BC66F6100A3B0A1 /* Debug */,
+				15315E641BC66F6100A3B0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15315E531BC66F6100A3B0A1 /* Project object */;
+}
