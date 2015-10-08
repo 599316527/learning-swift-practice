@@ -128,24 +128,6 @@ print("距离\(year)/\(month)/\(date)还有\(beforeDays)天的日期是\(bYear)/
 
 ///////////////////////////////////////////////////////////////
 
-enum Gender: Int {
-    case Male = 1
-    case Female, Hyper
-    func describe() -> String {
-        switch self {
-        case .Male:
-            return "Boys, Men 👬"
-        case .Female:
-            return "Girls, Women 👭"
-        default:
-            return "#%&^$*($^&$@&"
-        }
-    }
-}
-
-print(Gender.Male.describe())
-
-
 func suanming(name: String, age: Int, algorithm: (String, Int) -> Bool) -> String {
     return algorithm(name, age) ? "吉星高照😎" : "破财消灾😂"
 }
@@ -186,3 +168,40 @@ square.area = 33
 square.describe()
 
 
+////////////////////////////////////////////////////////
+
+var teacher = Person(
+    number: 9283,
+    name: "David Wang",
+    gender: Gender.Male,
+    face: "https://xxxxx.com/face/wangdawei",
+    email: "wangdawei@xxxx.edu"
+)
+
+var freshClass: Gruppe = Gruppe(
+    name: "我的人生就是在不停的戰鬥班",
+    advisor: teacher,
+    students: [Person]()
+)
+
+freshClass[20150101] = Person(
+    number: 20150101, name: "李浩", gender: Gender.Male,
+    face: "https://xxxxx.com/face/lihao",
+    email: "lihao@xxxxx.edu"
+)
+freshClass[20150102] = Person(
+    number: 20150102, name: "郭芙", gender: Gender.Female,
+    face: "https://xxxxx.com/face/guomeimei",
+    email: "guomei@xxxxx.edu"
+)
+
+freshClass[20150103] = Person(
+    number: 20150103, name: "郭襄", gender: Gender.Female,
+    face: "https://xxxxx.com/face/guoxiang",
+    email: "guoxiang@xxxxx.edu"
+)
+
+if freshClass[20150102]?.name == freshClass.students[1].name {
+    print("It works!")
+    print(freshClass[20150103])
+}
